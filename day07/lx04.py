@@ -9,7 +9,9 @@ author: icro
 
 
 def max2(arr_x):
-    m1, m2 = (arr_x[0], arr_x[1]) if arr_x[0] > arr_x[1] else (arr_x[1], arr_x[0])
+    m1, m2 = (arr_x[0], arr_x[1])
+    if arr_x[0] > arr_x[1]:
+        m1, m2 = (arr_x[1], arr_x[0])
     for index in range(2, len(arr_x)):
         if arr_x[index] > m1:
             m2 = m1
