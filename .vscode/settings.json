@@ -1,7 +1,7 @@
 {
-    "python.pythonPath": "/usr/local/bin/python3",
+    "python.pythonPath": "env/bin/python",
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
-    "python.formatting.provider": "black",
+    "python.formatting.provider": "autopep8",
     "editor.formatOnPaste": false
 }
